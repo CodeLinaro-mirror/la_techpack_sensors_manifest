@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/sensing-hub" path="vendor/qcom/opensource/sensing-hub" revision="f11a2ba80385a47dc670e639a0bcd9d50066888c" upstream="refs/heads/sensors.lnx.1.0.r14-rel">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/sensinghub_vendor_product.mk" src="build_config/sensinghub_vendor_product.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/sensors-techpack.mk" src="build_config/sensors-techpack.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/sensinghub_vendor_board.mk" src="build_config/sensinghub_vendor_board.mk"/>
+  </project>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/sensing-hub-android" path="vendor/qcom/opensource/sensing-hub-android" revision="300060ba2138253864ee6820caf7476d29257fc4" upstream="refs/heads/sensors-la.lnx.1.0.r10-rel"/>
+</manifest>
